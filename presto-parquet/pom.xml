@@ -223,13 +223,13 @@
                     </ignoredClassPatterns>
                 </configuration>
             </plugin>
-            <plugin>
-                <groupId>org.apache.maven.plugins</groupId>
-                <artifactId>maven-checkstyle-plugin</artifactId>
-                <configuration>
-                    <excludes>**/com/facebook/presto/parquet/batchreader/*FlatBatchReader.java,**/com/facebook/presto/parquet/batchreader/*NestedBatchReader.java</excludes>
-                </configuration>
-            </plugin>
+<!--            <plugin>-->
+<!--                <groupId>org.apache.maven.plugins</groupId>-->
+<!--                <artifactId>maven-checkstyle-plugin</artifactId>-->
+<!--                <configuration>-->
+<!--                    <excludes>**/com/facebook/presto/parquet/batchreader/*FlatBatchReader.java,**/com/facebook/presto/parquet/batchreader/*NestedBatchReader.java</excludes>-->
+<!--                </configuration>-->
+<!--            </plugin>-->
         </plugins>
     </build>
 
